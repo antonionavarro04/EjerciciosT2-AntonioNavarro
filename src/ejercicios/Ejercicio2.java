@@ -8,7 +8,7 @@ package ejercicios;
 import java.util.Scanner;
 import java.util.Locale;
 
-public class Ejericico2 {
+public class Ejercicio2 {
     public static void main(String[] args) {
         // ? Programa para calcular la letra del DNI en base al numero del DNI, cada letra corresponde a un numero
         // ^ Creamos las variables que vamos a utilizar, DNI y letraDNI
