@@ -32,6 +32,11 @@ public class pruebasEjercicio1 {
         int numInv = (udsInv * 1000) + (decInv * 100) + (cenInv * 10) + (milInv);
 
         // ! Mostramos el numero invertido
+        System.out.println(uds);
+        System.out.println(dec);
+        System.out.println(cen);
+        System.out.println(mil);
+
         System.out.println(udsInv);
         System.out.println(decInv);
         System.out.println(cenInv);
