@@ -42,7 +42,7 @@ public class Ejercicio1 {
             decInv = dec / 10;
 
             numeroInvertido = (uds * 10) + (decInv);
-        } else if (numero > 99 && numero < 1000){
+        } else if (numero > 99 && numero < 1000){ // * Numero de tres cifras
             uds = numero % 10;
             dec = numero % 100;
             cen = numero % 1000;
@@ -51,7 +51,7 @@ public class Ejercicio1 {
             cenInv = cen / 100;
 
             numeroInvertido = (uds * 100) + (decInv * 10) + (cenInv);
-        } else if (numero > 999 && numero < 10000){
+        } else if (numero > 999 && numero < 10000){ // * Numero de cuatro cifras
             uds = numero % 10;
             dec = numero % 100;
             cen = numero % 1000;
