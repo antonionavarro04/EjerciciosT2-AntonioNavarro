@@ -1,5 +1,5 @@
 // TESTS
-// = Habrá qeu comprobar minimo con un numero capicua y otro no capicúa por cada intervalo de numeros
+// = Habrá que comprobar minimo con un numero capicua y otro no capicúa por cada intervalo de numeros
 // = Habrá que comprobar que el numero que no esta dentro del rango se imprima correctamente
 
 package ejercicios;
