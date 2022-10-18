@@ -41,7 +41,7 @@ public class Ejercicio1 {
 
             decInv = dec / 10;
 
-            numeroInvertido = (uds * 10) + (decInv * 1);
+            numeroInvertido = (uds * 10) + (decInv);
         } else if (numero > 99 && numero < 1000){
             uds = numero % 10;
             dec = numero % 100;
@@ -50,7 +50,7 @@ public class Ejercicio1 {
             decInv = dec / 10;
             cenInv = cen / 100;
 
-            numeroInvertido = (uds * 100) + (decInv * 10) + (cenInv * 1);
+            numeroInvertido = (uds * 100) + (decInv * 10) + (cenInv);
         } else if (numero > 999 && numero < 10000){
             uds = numero % 10;
             dec = numero % 100;
@@ -61,7 +61,7 @@ public class Ejercicio1 {
             cenInv = cen / 100;
             milInv = mil / 1000;
 
-            numeroInvertido = (uds * 1000) + (decInv * 100) + (cenInv * 10) + (milInv * 1);
+            numeroInvertido = (uds * 1000) + (decInv * 100) + (cenInv * 10) + (milInv);
         }
 
         // ! Comprobamos si el numero introducido por el usuario es capicúa
