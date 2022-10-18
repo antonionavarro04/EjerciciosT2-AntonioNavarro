@@ -1,4 +1,6 @@
-
+// TESTS
+// = Habrá que comprobar con un DNI bien introducido y uno mal introducido
+// = Combrobar con cada uno de los casos es una perdida de tiempo ya que no puedes saber el módulo de cada uno
 
 package ejercicios;
 
