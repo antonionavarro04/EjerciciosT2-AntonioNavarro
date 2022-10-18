@@ -4,7 +4,7 @@ package ejercicios;
 import java.util.Scanner;
 import java.util.Locale;
 
-public class pruebas {
+public class pruebasEjercicio1 {
     public static void main(String[] args) {
         // ^ Creamos las variables que vamos a utilizar
         int udsInv = 0, decInv = 0, cenInv = 0, milInv = 0;
@@ -29,7 +29,7 @@ public class pruebas {
         milInv = mil / 1000;
 
         // ! Invertir el numero
-        int numInv = (udsInv * 1000) + (decInv * 100) + (cenInv * 10) + (milInv * 1);
+        int numInv = (udsInv * 1000) + (decInv * 100) + (cenInv * 10) + (milInv);
 
         // ! Mostramos el numero invertido
         System.out.println(udsInv);
@@ -41,6 +41,5 @@ public class pruebas {
 
         // ^ Cerramos el Scanner
         read.close();
-
     }
 }
