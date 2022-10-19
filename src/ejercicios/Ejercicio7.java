@@ -1,6 +1,6 @@
 // TESTS
 // = Habrá que comprobar introduciendo una hora en la que los segundos y los minutos sean 59, para ver si incrementa correctamente la hora
-// = Habrá que combrobar introduciendo 23:59:59 ya que así la hora cambiaría a 00:00:00
+// = Habrá que combrobar introduciendo 23:59:59 ya que así la hora cambiaría a 00:00:00.
 
 package ejercicios;
 
