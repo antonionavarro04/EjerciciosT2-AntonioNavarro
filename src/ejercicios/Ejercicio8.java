@@ -16,17 +16,32 @@ public class Ejercicio8 {
         byte estancia;
         double distancia, precioFinal;
 
+        // ^ Crearemos una variable String para que se determine si el descuento fue aplicado o no.
+        String descuento = "No";
+
         // ^ Creamos el Scanner, se lo asignamos a la variable read y cambiamos su localización a la US
         Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
-
+        
         // ! Pedimos al usuario que introduzca la distancia que recorrerá su tren
         System.out.print("Introduce la distancia que recorrerá tu tren: ");
         distancia = read.nextDouble();
-
+        
+        // ? Salto de linea
+        System.out.println();
+        
         // ! Pedimos al usuario que introduzca los días de estancia
         System.out.print("Introduce los días de estancia: ");
         estancia = read.nextByte();
+        
+        // ! Comprobamos que los datos son validos, en caso de no serlo acabaremos el programa
+        if (distancia < 0 || estancia < 0) {
+            System.out.println("La distancia introducida no es valida");
+            System.exit(1);
+        }
+        
+        // ? Salto de linea bonito
+        System.out.println();System.out.println("--------------------");System.out.println();
 
         // ! Calculamos el precio final
         precioFinal = distancia * PRECIO_KM;
@@ -34,10 +49,12 @@ public class Ejercicio8 {
         // ! Comprobamos mediante un if si el descuento va a ser aplicado o no
         if (estancia > 7 && distancia > 700){
             precioFinal = precioFinal * 0.7;
+            descuento = "Si";
         }
 
         // ! Mostramos el precio final
         System.out.println("El precio final es de: " + precioFinal + "€");
+        System.out.println(descuento + " se ha aplicado el descuento");
 
         // ^ Cerramos el Scanner
         read.close();
