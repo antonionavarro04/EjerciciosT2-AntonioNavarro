@@ -21,7 +21,7 @@ public class Ejercicio4 {
         Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
         
-        //  Pedimos al usuario que introduzca un numero comprendido entre el 0 y el 99
+        // ! Pedimos al usuario que introduzca un numero comprendido entre el 0 y el 99
         System.out.print("Introduce un número del 0 al 99: ");
         numero = read.nextInt();
 
