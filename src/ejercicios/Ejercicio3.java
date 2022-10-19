@@ -22,7 +22,7 @@ public class Ejercicio3 {
         read.useLocale(Locale.US);
 
         // ! Pedimos la cantidad de comida comprada, numero de animales y la cantidad de comida que comen los animales
-        System.out.print("Introduce la cantidad de comida comprada: ");
+        System.out.print("Introduce la cantidad de comida comprada (KG): ");
         comida = read.nextDouble();
         System.out.print("Introduce el numero de animales: ");
         animales = read.nextLong();
@@ -38,7 +38,7 @@ public class Ejercicio3 {
         } else {
             // ! Si los animales no son 0, calcularemos la cantidad de comida que le toca a cada animal
             if (animales <= 0) {
-                System.out.println("Tienes que tener mínimo 1 animal");
+                System.out.println("Tienes que tener como mínimo 1 animal");
             } else { // ? La comida total es la comida que comen por el numero de animales
                 kilosTotal = kilosComida * animales;
 
