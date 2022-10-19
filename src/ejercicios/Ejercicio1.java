@@ -27,6 +27,9 @@ public class Ejercicio1 {
         System.out.print("Introduce un número del 0 al 99999: ");
         numero = read.nextInt();
 
+        // ? Salto de línea bonito
+        System.out.println();System.out.println("--------------------");System.out.println();
+
         // ? Procedimiento para invertir el numero
         // ? Calculamos cada numero por el modulo segun las cifras que tenga el numero
         // ? Dividimos el numero por las cifras que tenga para obtener solo la parte que nos interesa
