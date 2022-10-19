@@ -1,7 +1,7 @@
 // TESTS
 // = Habrá que comprobar con un numero dentro del Rango
 // = Habrá que comprobar con un numero fuera del rango
-// = Habrá que comprobar con un número de una y otro de dos cifras
+// = Habrá que comprobar con un número por cada uno de los rangos introducido en el if
 
 package ejercicios;
 
@@ -23,7 +23,7 @@ public class Ejercicio4 {
         
         //  Pedimos al usuario que introduzca un numero comprendido entre el 0 y el 99
         System.out.print("Introduce un número del 0 al 99: ");
-        numero = read.nextByte();
+        numero = read.nextInt();
 
         // ! Comprobamos que el numero introducido por el usuario esta dentro del rango de 0 a 99, si no lo esta acabaremos el programa
         if (numero < 0 || numero > 99) {
@@ -32,112 +32,120 @@ public class Ejercicio4 {
         }
         
         // ! Separamos el número en unidades y decenas
-        uds = numero / 10;
-        dec = numero % 10;
+        uds = numero % 10;
+        dec = numero / 10;
 
-        // ! Mediante el switch sacaremos los valores de las Uds y los casos especiales de 10, 11, 12, 13, 14, 15, 16, 17, 18 y 19
+        // ! Mediante el switch sacaremos los valores de las Uds
         switch (uds) {
             case 0:
-                udsLetra = "Cero";
+                udsLetra = "cero";
                 break;
             case 1:
-                udsLetra = "Uno";
+                udsLetra = "uno";
                 break;
             case 2:
-                udsLetra = "Dos";
+                udsLetra = "dos";
                 break;
             case 3:
-                udsLetra = "Tres";
+                udsLetra = "tres";
                 break;
             case 4:
-                udsLetra = "Cuatro";
+                udsLetra = "cuatro";
                 break;
             case 5:
-                udsLetra = "Cinco";
+                udsLetra = "cinco";
                 break;
             case 6:
-                udsLetra = "Seis";
+                udsLetra = "seis";
                 break;
             case 7:
-                udsLetra = "Siete";
+                udsLetra = "siete";
                 break;
             case 8:
-                udsLetra = "Ocho";
+                udsLetra = "ocho";
                 break;
             case 9:
-                udsLetra = "Nueve";
-                break;
-            case 10:
-                udsLetra = "Diez";
-                break;
-            case 11:
-                udsLetra = "Once";
-                break;
-            case 12:
-                udsLetra = "Doce";
-                break;
-            case 13:   
-                udsLetra = "Trece";
-                break;
-            case 14:
-                udsLetra = "Catorce";
-                break;
-            case 15:
-                udsLetra = "Quince";
-                break;
-            case 16:
-                udsLetra = "Dieciseis";
-                break;
-            case 17:
-                udsLetra = "Diecisiete";
-                break;
-            case 18:
-                udsLetra = "Dieciocho";
-                break;
-            case 19:
-                udsLetra = "Diecinueve";
+                udsLetra = "nueve";
                 break;
             default:
                 udsLetra = "Error";
                 break;
         }
 
-        // ! Mediante el if vamos a separar calculos
+        // ! Mediante el switch sacaremos los valores de las Dec
+        switch (dec){
+            case 2:
+                decLetra = "veinte";
+                break;
+            case 3:
+                decLetra = "treinta";
+                break;
+            case 4:
+                decLetra = "cuarenta";
+                break;
+            case 5:
+                decLetra = "cincuenta";
+                break;
+            case 6:
+                decLetra = "sesenta";
+                break;
+            case 7:
+                decLetra = "setenta";
+                break;
+            case 8:
+                decLetra = "ochenta";
+                break;
+            case 9:
+                decLetra = "noventa";
+                break;
+            default:
+                decLetra = "Error";
+                break;
+        }
+
+        // ! Mediante un if vamos a separar los casos
         if (numero >= 0 && numero <= 9){
             System.out.println("El numero " + numero + " en letras es " + udsLetra);
-        } else if (numero > 9 && numero < 20){
-            System.out.println("El numero " + numero + " en letras es " + udsLetra);
-        } else if (numero > 19 && numero < 100){
-            switch (dec) {
+        } else if (numero >= 10 && numero <= 15){
+            // ! Switch para los casos especiales de los 10 al 15
+            switch (uds){
+                case 0:
+                    udsLetra = "diez";
+                    break;
+                case 1:
+                    udsLetra = "once";
+                    break;
                 case 2:
-                    decLetra = "Veinte";
+                    udsLetra = "doce";
                     break;
                 case 3:
-                    decLetra = "Treinta";
+                    udsLetra = "trece";
                     break;
                 case 4:
-                    decLetra = "Cuarenta";
+                    udsLetra = "catorce";
                     break;
                 case 5:
-                    decLetra = "Cincuenta";
-                    break;
-                case 6:
-                    decLetra = "Sesenta";
-                    break;
-                case 7:
-                    decLetra = "Setenta";
-                    break;
-                case 8:
-                    decLetra = "Ochetenta";
-                    break;
-                case 9:
-                    decLetra = "Noventa";
-                    break;
-                default:
-                    decLetra = "Error";
+                    udsLetra = "quince";
                     break;
             }
-            System.out.println("El numero " + numero + " en letras es " + udsLetra + " y " + decLetra);
+            System.out.println("El numero " + numero + " en letras es " + udsLetra);
+        } else if (numero >= 16 && numero <= 19){
+            decLetra = "dieci";
+            System.out.println("El numero " + numero + " en letras es " + decLetra + udsLetra);
+        } else if (dec != 0 && uds == 0){
+            System.out.println("El numero " + numero + " en letras es " + decLetra);
+        } else if (numero >= 21 && numero <= 29){
+            decLetra = "veinti";
+            System.out.println("El numero " + numero + " en letras es " + decLetra + udsLetra);
+        } else if (numero >= 31 && numero <= 99){
+            System.out.println("El numero " + numero + " en letras es " + decLetra + " y " + udsLetra);   
+        } else if (decLetra == "Error" || udsLetra == "Error"){
+            System.out.println("Error, alguno de los numeros no se a introducido correctamente");
         }
+
+        // ^ Cerramos el Scanner
+        read.close();
+
+        // € Hecho por Antonio Navarro
     }
 }
