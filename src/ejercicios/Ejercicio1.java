@@ -34,36 +34,23 @@ public class Ejercicio1 {
         // ? Calculamos cada numero por el modulo segun las cifras que tenga el numero
         // ? Dividimos el numero por las cifras que tenga para obtener solo la parte que nos interesa
         // ? Multiplicamos cada numero por el numero contrario a la posicion que tiene
+        uds = numero % 10;
+        dec = numero % 100;
+        cen = numero % 1000;
+        mil = numero % 10000;
+
+        decInv = dec / 10;
+        cenInv = cen / 100;
+        milInv = mil / 1000;
 
         // ! Comprobamos que el numero introducido por el usuario es capicúa
         if (numero >= 0 && numero <= 9) { // * Numero de una sola cifra
             numeroInvertido = numero;
         } else if (numero > 9 && numero < 100){ // * Numero de dos cifras
-            uds = numero % 10;
-            dec = numero % 100;
-
-            decInv = dec / 10;
-
             numeroInvertido = (uds * 10) + (decInv);
         } else if (numero > 99 && numero < 1000){ // * Numero de tres cifras
-            uds = numero % 10;
-            dec = numero % 100;
-            cen = numero % 1000;
-
-            decInv = dec / 10;
-            cenInv = cen / 100;
-
             numeroInvertido = (uds * 100) + (decInv * 10) + (cenInv);
         } else if (numero > 999 && numero < 10000){ // * Numero de cuatro cifras
-            uds = numero % 10;
-            dec = numero % 100;
-            cen = numero % 1000;
-            mil = numero % 10000;
-
-            decInv = dec / 10;
-            cenInv = cen / 100;
-            milInv = mil / 1000;
-
             numeroInvertido = (uds * 1000) + (decInv * 100) + (cenInv * 10) + (milInv);
         }
 
