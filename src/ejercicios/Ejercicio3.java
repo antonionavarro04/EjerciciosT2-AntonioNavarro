@@ -29,6 +29,9 @@ public class Ejercicio3 {
         System.out.print("Introduce la cantidad de comida que comen los animales (KG): ");
         kilosComida = read.nextDouble();
 
+        // ? Salto de linea bonito
+        System.out.println();System.out.println("--------------------");System.out.println();
+
         // ! Primeramente comprobaremos que los animales no sean 0, ya que si lo son, no se puede dividir entre 0
         if (animales == 0) {
             System.out.println("No se puede dividir entre 0");
