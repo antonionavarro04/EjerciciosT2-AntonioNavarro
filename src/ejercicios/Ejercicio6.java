@@ -18,8 +18,8 @@ public class Ejercicio6 {
         read.useLocale(Locale.US);
 
         // ! Generamos los dos números aleatorios
-        num1 = (int) (Math.random() * 100);
-        num2 = (int) (Math.random() * 100);
+        num1 = (int) (Math.random() * 99) + 1;
+        num2 = (int) (Math.random() * 99) + 1;
 
         // ! Calculamos el resultado
         resultado = num1 + num2;
