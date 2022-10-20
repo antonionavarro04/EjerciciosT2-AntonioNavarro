@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T11:26:58.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="xTZN48NxXHbHsCd7YGwP" version="20.4.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-10-20T11:33:30.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="TWI-_NEvazvgjiVa8WaY" version="20.4.1" type="github" pages="8">
   <diagram id="9Da4yWlCL80UM0SUeJ_Y" name="Ejercicio 1">
     <mxGraphModel dx="3267" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -698,7 +698,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="84U3XxLYwi0TG1r-Qbqz" name="Ejercicio 4">
-    <mxGraphModel dx="3267" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1153" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -720,7 +720,7 @@
         <mxCell id="zaHSdB8lGqqiiRumbVPc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zaHSdB8lGqqiiRumbVPc-4" target="zaHSdB8lGqqiiRumbVPc-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zaHSdB8lGqqiiRumbVPc-4" value="if (numero &amp;lt; 0&lt;br&gt;|| numero &amp;gt; 99)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+        <mxCell id="zaHSdB8lGqqiiRumbVPc-4" value="if (numero &amp;lt; 1&lt;br&gt;|| numero &amp;gt; 99)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
           <mxGeometry x="820" y="800" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mXbHcZcdNsR9uOsd64KY-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zaHSdB8lGqqiiRumbVPc-6" target="mXbHcZcdNsR9uOsd64KY-152">
@@ -1007,7 +1007,7 @@
         <mxCell id="mXbHcZcdNsR9uOsd64KY-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mXbHcZcdNsR9uOsd64KY-88" target="mXbHcZcdNsR9uOsd64KY-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mXbHcZcdNsR9uOsd64KY-88" value="if (numero &amp;gt;= 0&lt;br&gt;&amp;amp;&amp;amp; numero &amp;lt;= 9)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+        <mxCell id="mXbHcZcdNsR9uOsd64KY-88" value="if (numero &amp;gt;= 1&lt;br&gt;&amp;amp;&amp;amp; numero &amp;lt;= 9)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
           <mxGeometry x="520" y="1570" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mXbHcZcdNsR9uOsd64KY-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mXbHcZcdNsR9uOsd64KY-90" target="mXbHcZcdNsR9uOsd64KY-152">
