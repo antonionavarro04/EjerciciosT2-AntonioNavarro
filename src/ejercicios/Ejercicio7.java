@@ -1,5 +1,5 @@
 // TESTS
-// = Habrá que comprobar introduciendo una hora en la que los segundos y los minutos sean 59, para ver si incrementa correctamente la hora
+// = Habrá que comprobar introduciendo una hora en la que los segundos y los minutos sean 59, para ver si incrementa correctamente la hora y los minutos.
 // = Habrá que combrobar introduciendo 23:59:59 ya que así la hora cambiaría a 00:00:00.
 
 package ejercicios;
@@ -32,19 +32,25 @@ public class Ejercicio7 {
         segundos++;
 
         // ! Mediante una estructura if vamos a comprobar que el incremento de los segundos no haya hecho que haya que incrementar minutos y horas
-        if (segundos == 60) {
-            segundos = 0;
-            minutos++;
+        // ! Tambien comprobaremos que no se han introducido datos mal
+        if (segundos < 0 || segundos > 59 || minutos < 0 || minutos > 59 || hora < 0 || hora > 23) {
+            System.out.println("La hora introducida no es correcta");
+        } else {
+            if (segundos == 60) {
+                segundos = 0;
+                minutos++;
+            }
 
             if (minutos == 60) {
                 minutos = 0;
                 hora++;
+            }
 
-                if (hora == 24) {
-                    hora = 0;
-                }
+            if (hora == 24) {
+                hora = 0;
             }
         }
+
         // ! Mostramos la hora resultante
         System.out.println("La hora resultante es " + hora + ":" + minutos + ":" + segundos);
 
