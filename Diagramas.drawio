@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T11:33:30.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="TWI-_NEvazvgjiVa8WaY" version="20.4.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-10-20T11:34:35.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="eAtHPMDIQOmNZ26CDRf4" version="20.4.1" type="github" pages="8">
   <diagram id="9Da4yWlCL80UM0SUeJ_Y" name="Ejercicio 1">
     <mxGraphModel dx="3267" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,7 +192,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SsuOS7iaUWCzYuqEjNTL" name="Ejercicio 2">
-    <mxGraphModel dx="729" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2178" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -534,16 +534,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qUll1rgopgtBQPF_d7cJ-113" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
-          <mxGeometry x="1745" y="699" width="20" height="20" as="geometry" />
+          <mxGeometry x="1745" y="600" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qUll1rgopgtBQPF_d7cJ-115" value="out (El DNI con la letra es: dni + letraDni)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-          <mxGeometry x="1688" y="749" width="132" height="60" as="geometry" />
+          <mxGeometry x="1688" y="650" width="132" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="VoKl0kOeV7X0xhCtQV4E" name="Ejercicio 3">
-    <mxGraphModel dx="486" dy="267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2178" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -698,7 +698,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="84U3XxLYwi0TG1r-Qbqz" name="Ejercicio 4">
-    <mxGraphModel dx="1153" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2800" dy="1411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
