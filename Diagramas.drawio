@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T10:43:40.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="NeqGY4dawjewaOIuR2s5" version="20.4.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-10-20T10:44:02.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ogwpnuRcsxRqXfv_o97v" version="20.4.1" type="github" pages="8">
   <diagram id="9Da4yWlCL80UM0SUeJ_Y" name="Ejercicio 1">
     <mxGraphModel dx="3267" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -706,10 +706,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zaHSdB8lGqqiiRumbVPc-1" value="out (Introduce un numero del 0 al 99)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry width="120" height="60" as="geometry" />
+          <mxGeometry x="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zaHSdB8lGqqiiRumbVPc-2" value="numero = read.nextInt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="525" y="90" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
