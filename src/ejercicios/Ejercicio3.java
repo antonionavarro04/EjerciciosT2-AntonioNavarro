@@ -32,28 +32,27 @@ public class Ejercicio3 {
         // ? Salto de linea bonito
         System.out.println();System.out.println("--------------------");System.out.println();
 
-        // ! Primeramente comprobaremos que los animales no sean 0, ya que si lo son, no se puede dividir entre 0
-        if (animales == 0) {
-            System.out.println("No se puede dividir entre 0");
-        } else {
-            // ! Si los animales no son 0, calcularemos la cantidad de comida que le toca a cada animal
-            if (animales <= 0) {
-                System.out.println("Tienes que tener como mínimo 1 animal");
-            } else { // ? La comida total es la comida que comen por el numero de animales
+        // ! Si los animales no son 0, calcularemos la cantidad de comida que le toca a cada animal
+        if (animales <= 0) {
+            System.out.println("Tienes que tener como mínimo 1 animal");
+        } else { // ? La comida total es la comida que comen por el numero de animales
+            kilosTotal = kilosComida * animales;
+
+            // ! Comprobamos si la comida da o no para todos los animales
+            if (kilosTotal <= comida) {
+                System.out.println("La comida da para todos los animales" + comida);
+                
+                // ! Calculamos la comida restante
                 kilosTotal = kilosComida * animales;
+                comida -= kilosTotal;
+                System.out.println("Quedan " + comida + "KG de comida");
+            } else {
+                System.out.println("La comida no da para todos los animales");
 
-                // ! Comprobamos si la comida da o no para todos los animales
-                if (kilosTotal <= comida) {
-                    System.out.println("La comida da para todos los animales");
-                } else {
-                    System.out.println("La comida no da para todos los animales");
-
-                    // ! Calculamos cuanto le corresponde a cada animal con la comida limitada
-                    kilosTotal = comida / animales;
-                    System.out.println("Cada animal comerá " + kilosTotal + " KG");
-                }
+                // ! Calculamos cuanto le corresponde a cada animal con la comida limitada
+                kilosTotal = comida / animales;
+                System.out.println("Cada animal comerá " + kilosTotal + " KG");
             }
-            
         }
 
         // ^ Cerramos el Scanner
