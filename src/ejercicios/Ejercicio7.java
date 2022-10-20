@@ -12,7 +12,7 @@ public class Ejercicio7 {
     public static void main(String[] args) {
         // ? Programa que dada una hora por teclado (hh:mm:ss), incremente los segundos en 1 y muestre la hora resultante
         // ^ Declaramos las variables hora, minutos y segundos
-        byte hora, minutos, segundos;
+        byte horas, minutos, segundos;
 
         // ^ Creamos el Scanner, se lo asignamos a la variable read y cambiamos su localización a la US
         Scanner read = new Scanner(System.in);
@@ -20,7 +20,7 @@ public class Ejercicio7 {
 
         // ! Pedimos la hora al usuario
         System.out.print("Introduce la hora (hh): ");
-        hora = read.nextByte();
+        horas = read.nextByte();
 
         System.out.print("Introduce los minutos (mm): ");
         minutos = read.nextByte();
@@ -32,7 +32,7 @@ public class Ejercicio7 {
         System.out.println();System.out.println("--------------------");System.out.println();
         
         // ! Comprobaremos que no se han introducido datos mal
-        if (segundos < 0 || segundos > 59 || minutos < 0 || minutos > 59 || hora < 0 || hora > 23) {
+        if (segundos < 0 || segundos > 59 || minutos < 0 || minutos > 59 || horas < 0 || horas > 23) {
             System.out.println("La hora introducida no es correcta");
         } else {
             // ! Incrementamos los segundos en 1
@@ -46,16 +46,16 @@ public class Ejercicio7 {
 
             if (minutos == 60) {
                 minutos = 0;
-                hora++;
+                horas++;
             }
 
-            if (hora == 24) {
-                hora = 0;
+            if (horas == 24) {
+                horas = 0;
             }
         }
 
         // ! Mostramos la hora resultante
-        System.out.println("La hora resultante es " + hora + ":" + minutos + ":" + segundos);
+        System.out.println("La hora resultante es " + horas + ":" + minutos + ":" + segundos);
 
         // ^ Ceramos el Scanner
         read.close();
