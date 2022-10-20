@@ -21,13 +21,13 @@ public class Ejercicio4 {
         Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
         
-        // ! Pedimos al usuario que introduzca un numero comprendido entre el 0 y el 99
+        // ! Pedimos al usuario que introduzca un numero comprendido entre el 1 y el 99
         System.out.print("Introduce un número del 0 al 99: ");
         numero = read.nextInt();
 
-        // ! Comprobamos que el numero introducido por el usuario esta dentro del rango de 0 a 99, si no lo esta acabaremos el programa
-        if (numero < 0 || numero > 99) {
-            System.out.println("El numero introducido no esta dentro del rango de 0 a 99");
+        // ! Comprobamos que el numero introducido por el usuario esta dentro del rango de 1 a 99, si no lo esta acabaremos el programa
+        if (numero < 1 || numero > 99) {
+            System.out.println("El numero introducido no esta dentro del rango de 1 a 99");
         } else {
             // ! Separamos el número en unidades y decenas
             uds = numero % 10;
@@ -102,7 +102,7 @@ public class Ejercicio4 {
             }
 
             // ! Mediante un if vamos a separar los casos
-            if (numero >= 0 && numero <= 9){
+            if (numero >= 1 && numero <= 9){
                 System.out.println("El numero " + numero + " en letras es " + udsLetra);
             } else if (numero >= 10 && numero <= 15){
                 // ! Switch para los casos especiales de los 10 al 15
