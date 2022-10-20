@@ -28,14 +28,17 @@ public class Ejercicio7 {
         System.out.print("Introduce los segundos (ss): ");
         segundos = read.nextByte();
 
-        // ! Incrementamos los segundos en 1
-        segundos++;
-
-        // ! Mediante una estructura if vamos a comprobar que el incremento de los segundos no haya hecho que haya que incrementar minutos y horas
-        // ! Tambien comprobaremos que no se han introducido datos mal
+        // ? Salto de línea bonito
+        System.out.println();System.out.println("--------------------");System.out.println();
+        
+        // ! Comprobaremos que no se han introducido datos mal
         if (segundos < 0 || segundos > 59 || minutos < 0 || minutos > 59 || hora < 0 || hora > 23) {
             System.out.println("La hora introducida no es correcta");
         } else {
+            // ! Incrementamos los segundos en 1
+            segundos++;
+            
+            // ! Mediante una estructura if vamos a comprobar que el incremento de los segundos no haya hecho que haya que incrementar minutos y horas
             if (segundos == 60) {
                 segundos = 0;
                 minutos++;
