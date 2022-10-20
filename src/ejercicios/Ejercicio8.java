@@ -39,14 +39,14 @@ public class Ejercicio8 {
 
         // ! Comprobamos que los datos son validos, en caso de no serlo acabaremos el programa
         if (distancia < 0 || estancia < 0) {
-            System.out.println("La distancia introducida no es valida");
+            System.out.println("La distancia o la estancia introducida no es valida");
         } else {
             // ! Calculamos el precio final
             precioFinal = distancia * PRECIO_KM;
 
             // ! Comprobamos mediante un if si el descuento va a ser aplicado o no
             if (estancia > 7 && distancia > 700){
-                precioFinal = precioFinal * 0.7;
+                precioFinal *= 0.7;
                 descuento = "Si";
             }
 
