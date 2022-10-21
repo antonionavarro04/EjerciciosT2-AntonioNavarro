@@ -48,10 +48,10 @@ public class Ejercicio7 {
             } if (horas == 24) {
                 horas = 0;
             }
-        }
 
-        // ! Mostramos la hora resultante
-        System.out.println("La hora resultante es " + horas + ":" + minutos + ":" + segundos);
+            // ! Mostramos la hora resultante
+            System.out.println("La hora resultante es " + horas + ":" + minutos + ":" + segundos);
+        }
 
         // ^ Ceramos el Scanner
         read.close();
