@@ -45,7 +45,7 @@ public class Ejercicio8 {
             precioFinal = distancia * PRECIO_KM;
 
             // ! Comprobamos mediante un if si el descuento va a ser aplicado o no
-            if (estancia > 7 && distancia > 700){
+            if (estancia > 7 && distancia > 800){
                 precioFinal *= 0.7;
                 descuento = "Si";
             }
