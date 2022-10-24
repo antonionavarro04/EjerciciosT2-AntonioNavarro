@@ -29,7 +29,7 @@ public class Ejercicio3 {
         System.out.print("Introduce la cantidad de comida que comen los animales (KG): ");
         kilosComida = read.nextDouble();
 
-        // ? Salto de linea bonito
+        // ? Triple salto de línea
         System.out.println();System.out.println("--------------------");System.out.println();
 
         // ! Si los animales no son 0, calcularemos la cantidad de comida que le toca a cada animal

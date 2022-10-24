@@ -21,7 +21,7 @@ public class Ejercicio5 {
         System.out.print("Introduce un numero, puede contener decimales: ");
         num = read.nextDouble();
 
-        // ? Salto de linea bonito
+        // ? Triple salto de línea
         System.out.println();System.out.println("--------------------");System.out.println();
 
         // ! Quitamos o no el signo dependiendo de si es positivo o negativo

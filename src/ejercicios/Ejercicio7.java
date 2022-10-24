@@ -28,7 +28,7 @@ public class Ejercicio7 {
         System.out.print("Introduce los segundos (ss): ");
         segundos = read.nextByte();
 
-        // ? Salto de línea bonito
+        // ? Triple salto de línea
         System.out.println();System.out.println("--------------------");System.out.println();
         
         // ! Comprobaremos que no se han introducido datos mal

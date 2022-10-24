@@ -34,7 +34,7 @@ public class Ejercicio8 {
         System.out.print("Introduce los días de estancia: ");
         estancia = read.nextByte();
         
-        // ? Salto de linea bonito
+        // ? Triple salto de línea
         System.out.println();System.out.println("--------------------");System.out.println();
 
         // ! Comprobamos que los datos son validos, en caso de no serlo acabaremos el programa

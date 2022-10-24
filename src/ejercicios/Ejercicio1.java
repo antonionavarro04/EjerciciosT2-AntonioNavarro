@@ -27,7 +27,7 @@ public class Ejercicio1 {
         System.out.print("Introduce un número del 0 al 99999: ");
         numero = read.nextInt();
 
-        // ? Salto de línea bonito
+        // ? Triple salto de línea
         System.out.println();System.out.println("--------------------");System.out.println();
 
         // ? Procedimiento para invertir el numero

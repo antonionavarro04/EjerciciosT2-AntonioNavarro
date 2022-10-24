@@ -25,6 +25,9 @@ public class Ejercicio4 {
         System.out.print("Introduce un número del 0 al 99: ");
         numero = read.nextInt();
 
+        // ? Triple salto de línea
+        System.out.println();System.out.println("--------------------");System.out.println();
+
         // ! Comprobamos que el numero introducido por el usuario esta dentro del rango de 1 a 99, si no lo esta acabaremos el programa
         if (numero < 1 || numero > 99) {
             System.out.println("El numero introducido no esta dentro del rango de 1 a 99");

@@ -23,6 +23,9 @@ public class Ejercicio2 {
         System.out.print("Introduce el DNI sin la letra: ");
         dni = read.nextInt();
 
+        // ? Triple salto de línea
+        System.out.println();System.out.println("--------------------");System.out.println();
+
         // ! Calculamos la letra del DNI, esto se consigue haciendo el módulo de 23 del DNI
         numeroLetra = dni % 23;
 

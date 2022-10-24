@@ -31,7 +31,7 @@ public class Ejercicio6 {
         System.out.println("Pulsa una 'enter' para comenzar");
         read.nextLine();
 
-        // ? Salto de linea bonito
+        // ? Triple salto de línea
         System.out.println();System.out.println("--------------------");System.out.println();
 
         // ! Mostramos los números y pedimos el resultado
