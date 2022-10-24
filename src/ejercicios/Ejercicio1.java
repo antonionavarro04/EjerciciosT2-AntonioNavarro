@@ -37,11 +37,10 @@ public class Ejercicio1 {
         uds = numero % 10;
         dec = numero % 100;
         cen = numero % 1000;
-        mil = numero % 10000;
 
         decInv = dec / 10;
         cenInv = cen / 100;
-        milInv = mil / 1000;
+        milInv = numero / 1000;
 
         // ! Comprobamos que el numero introducido por el usuario es capicúa
         if (numero >= 0 && numero <= 9) { // * Numero de una sola cifra
