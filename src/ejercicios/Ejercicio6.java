@@ -9,7 +9,7 @@ import java.util.Locale;
 
 public class Ejercicio6 {
     public static void main(String[] args) {
-        // ? Juego de la suma, se generaran dos números aleatorios entre 0 y 99 y el usuario debera calcularlo y sacar su resultado. El programa indicará si esta en lo correcto o por lo contrario se ha equivocado
+        // ? Juego de la suma, se generaran dos números aleatorios entre 1 y 99 y el usuario debera calcularlo y sacar su resultado. El programa indicará si esta en lo correcto o por lo contrario se ha equivocado
         // ^ Declaramos las variables num1, num2, resultado y resultadoUsuario
         int num1, num2, resultado, resultadoUsuario;
         
