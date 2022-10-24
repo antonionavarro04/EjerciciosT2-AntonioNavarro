@@ -15,7 +15,7 @@ public class Ejercicio1 {
         // ^ Creamos las variables que vamos a utilizar, numero y numeroInvertido para comprobar
         int numero, numeroInvertido = 0;
         // ^ Cada posición por separado para poder separar el numero
-        int uds, dec, cen, mil;
+        int uds, dec, cen;
         // ^ Cada posicion pero invertida, las unidades van a ser las mismas ya que dividir por 1 es lo mismo que no dividir
         int decInv, cenInv, milInv;
 
