@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T06:34:52.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="V4fQ2RT5aozDbseX2khy" version="20.4.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-10-24T20:55:58.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="M4nerQ2B6MQo6MSz0pqh" version="20.4.2" type="github" pages="8">
   <diagram id="9Da4yWlCL80UM0SUeJ_Y" name="Ejercicio 1">
-    <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -192,7 +192,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SsuOS7iaUWCzYuqEjNTL" name="Ejercicio 2">
-    <mxGraphModel dx="1960" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -229,7 +229,7 @@
         <mxCell id="qUll1rgopgtBQPF_d7cJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qUll1rgopgtBQPF_d7cJ-8" target="qUll1rgopgtBQPF_d7cJ-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6WSN5MLIWLrz6GWtPJbG-1" value="case 0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qUll1rgopgtBQPF_d7cJ-62">
+        <mxCell id="6WSN5MLIWLrz6GWtPJbG-1" value="case 0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qUll1rgopgtBQPF_d7cJ-62" vertex="1" connectable="0">
           <mxGeometry x="0.9758" y="1" relative="1" as="geometry">
             <mxPoint x="-1" y="-2" as="offset" />
           </mxGeometry>
@@ -543,7 +543,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VoKl0kOeV7X0xhCtQV4E" name="Ejercicio 3">
-    <mxGraphModel dx="2178" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -698,7 +698,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="84U3XxLYwi0TG1r-Qbqz" name="Ejercicio 4">
-    <mxGraphModel dx="827" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="5688" dy="2788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1213,7 +1213,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Ejercicio 5">
-    <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="583" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="583" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1267,20 +1267,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QyR0DxDNUCgWVp0gTYNo" name="Ejercicio 6">
-    <mxGraphModel dx="2450" dy="1235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-hdFhxuu3XE4moyLAdcY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-hdFhxuu3XE4moyLAdcY-2" target="-hdFhxuu3XE4moyLAdcY-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-hdFhxuu3XE4moyLAdcY-2" value="num1 = (int) (Math.random() * 100)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+        <mxCell id="-hdFhxuu3XE4moyLAdcY-2" value="num1 = (int) (Math.random() * 99) + 1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="156" y="104" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hdFhxuu3XE4moyLAdcY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-hdFhxuu3XE4moyLAdcY-3" target="-hdFhxuu3XE4moyLAdcY-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-hdFhxuu3XE4moyLAdcY-3" value="num2 = (int) (Math.random() * 100)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+        <mxCell id="-hdFhxuu3XE4moyLAdcY-3" value="num2 = (int) (Math.random() * 99) + 1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="306" y="104" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hdFhxuu3XE4moyLAdcY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-hdFhxuu3XE4moyLAdcY-4" target="-hdFhxuu3XE4moyLAdcY-7" edge="1">
